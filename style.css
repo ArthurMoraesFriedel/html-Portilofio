@@ -4,6 +4,50 @@
     box-sizing: border-box;
 }
 
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #111827;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px ;
+    box-shadow: 0 2px 6px rgba(15, 15, 15, 0.9);
+    z-index: 10;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    transition: opacity 0.3s;
+}
+
+.menu a:hover{
+    opacity: 0.7;
+}
+
+.icon{
+   width: 30px;
+   height: 30px;
+   object-fit: contain;
+    vertical-align: middle;
+}
+
 body{
     font-family: 'inter', sans-serif;
     color: #f0f0f0;
